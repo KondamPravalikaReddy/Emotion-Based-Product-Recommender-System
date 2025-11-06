@@ -1,0 +1,279 @@
+2025-11-06 19:16:31,521 - __main__ - INFO - Starting Emotion-Based Product Recommender Backend...
+2025-11-06 19:16:31,556 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.125.130.22:5000
+2025-11-06 19:16:31,556 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-06 19:16:31,558 - werkzeug - INFO -  * Restarting with stat
+2025-11-06 19:16:37,256 - __main__ - INFO - Starting Emotion-Based Product Recommender Backend...
+2025-11-06 19:16:37,268 - werkzeug - WARNING -  * Debugger is active!
+2025-11-06 19:16:37,276 - werkzeug - INFO -  * Debugger PIN: 517-185-592
+2025-11-06 19:16:58,364 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:16:58] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-11-06 19:16:58,625 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:16:58] "[31m[1mPOST /api/auth/login HTTP/1.1[0m" 401 -
+2025-11-06 19:17:07,608 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:17:07] "OPTIONS /api/auth/register HTTP/1.1" 200 -
+2025-11-06 19:17:08,295 - __main__ - INFO - New user registered: kpravalika426@gmail.com
+2025-11-06 19:17:08,296 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:17:08] "[35m[1mPOST /api/auth/register HTTP/1.1[0m" 201 -
+2025-11-06 19:17:16,201 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:17:16] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2025-11-06 19:17:16,844 - __main__ - INFO - User logged in: kpravalika426@gmail.com
+2025-11-06 19:17:16,846 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:17:16] "POST /api/auth/login HTTP/1.1" 200 -
+2025-11-06 19:17:16,856 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:17:16] "OPTIONS /api/emotion-stats HTTP/1.1" 200 -
+2025-11-06 19:17:17,164 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:17:17] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 19:17:17,230 - __main__ - INFO - Generated stats for user 690ca6dc717b4c3d7e33ee87
+2025-11-06 19:17:17,230 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:17:17] "GET /api/emotion-stats HTTP/1.1" 200 -
+2025-11-06 19:17:20,147 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:17:20] "OPTIONS /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:17:20,859 - __main__ - INFO - Analyzing emotion for user: 690ca6dc717b4c3d7e33ee87
+2025-11-06 19:17:24,635 - __main__ - INFO - Emotion detected: happy (confidence: 0.9682997131347656)
+2025-11-06 19:17:24,639 - __main__ - INFO - Emotion stored for user 690ca6dc717b4c3d7e33ee87: happy
+2025-11-06 19:17:24,642 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:17:24] "POST /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:17:24,679 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:17:24] "OPTIONS /api/emotion-stats HTTP/1.1" 200 -
+2025-11-06 19:17:25,001 - __main__ - INFO - Generated stats for user 690ca6dc717b4c3d7e33ee87
+2025-11-06 19:17:25,004 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:17:25] "GET /api/emotion-stats HTTP/1.1" 200 -
+2025-11-06 19:18:27,144 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:18:27] "OPTIONS /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:18:27,740 - __main__ - INFO - Analyzing emotion for user: 690ca6dc717b4c3d7e33ee87
+2025-11-06 19:18:28,317 - __main__ - INFO - Emotion detected: neutral (confidence: 0.9493238830566406)
+2025-11-06 19:18:28,526 - __main__ - INFO - Emotion stored for user 690ca6dc717b4c3d7e33ee87: neutral
+2025-11-06 19:18:28,530 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:18:28] "POST /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:18:28,549 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:18:28] "OPTIONS /api/emotion-stats HTTP/1.1" 200 -
+2025-11-06 19:18:29,809 - __main__ - INFO - Generated stats for user 690ca6dc717b4c3d7e33ee87
+2025-11-06 19:18:29,810 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:18:29] "GET /api/emotion-stats HTTP/1.1" 200 -
+2025-11-06 19:26:08,866 - werkzeug - INFO -  * Detected change in 'C:\\Users\\kmani\\Desktop\\Emotion-Based Product Recommender System\\emotion-recommender-app\\backend\\seed_products.py', reloading
+2025-11-06 19:26:10,307 - werkzeug - INFO -  * Restarting with stat
+2025-11-06 19:26:16,207 - __main__ - INFO - Starting Emotion-Based Product Recommender Backend...
+2025-11-06 19:26:16,218 - werkzeug - WARNING -  * Debugger is active!
+2025-11-06 19:26:16,224 - werkzeug - INFO -  * Debugger PIN: 517-185-592
+2025-11-06 19:28:35,739 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:28:35] "OPTIONS /api/emotion-stats HTTP/1.1" 200 -
+2025-11-06 19:28:35,740 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:28:35] "OPTIONS /api/emotion-stats HTTP/1.1" 200 -
+2025-11-06 19:28:35,763 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:28:35] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 19:28:35,983 - __main__ - INFO - Generated stats for user 690ca6dc717b4c3d7e33ee87
+2025-11-06 19:28:35,984 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:28:35] "GET /api/emotion-stats HTTP/1.1" 200 -
+2025-11-06 19:28:36,059 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:28:36] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 19:28:36,082 - __main__ - INFO - Generated stats for user 690ca6dc717b4c3d7e33ee87
+2025-11-06 19:28:36,083 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:28:36] "GET /api/emotion-stats HTTP/1.1" 200 -
+2025-11-06 19:28:39,750 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:28:39] "OPTIONS /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:28:40,117 - __main__ - INFO - Analyzing emotion for user: 690ca6dc717b4c3d7e33ee87
+2025-11-06 19:28:43,681 - __main__ - INFO - Emotion detected: angry (confidence: 0.7738373565673828)
+2025-11-06 19:28:43,684 - __main__ - INFO - Emotion stored for user 690ca6dc717b4c3d7e33ee87: angry
+2025-11-06 19:28:43,686 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:28:43] "POST /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:28:43,716 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:28:43] "OPTIONS /api/emotion-stats HTTP/1.1" 200 -
+2025-11-06 19:28:44,033 - __main__ - INFO - Generated stats for user 690ca6dc717b4c3d7e33ee87
+2025-11-06 19:28:44,034 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:28:44] "GET /api/emotion-stats HTTP/1.1" 200 -
+2025-11-06 19:29:29,984 - __main__ - INFO - Starting Emotion-Based Product Recommender Backend...
+2025-11-06 19:29:30,008 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.125.130.22:5000
+2025-11-06 19:29:30,009 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-06 19:29:30,010 - werkzeug - INFO -  * Restarting with stat
+2025-11-06 19:29:36,428 - __main__ - INFO - Starting Emotion-Based Product Recommender Backend...
+2025-11-06 19:29:36,440 - werkzeug - WARNING -  * Debugger is active!
+2025-11-06 19:29:36,444 - werkzeug - INFO -  * Debugger PIN: 517-185-592
+2025-11-06 19:29:45,348 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:29:45] "OPTIONS /api/emotion-stats HTTP/1.1" 200 -
+2025-11-06 19:29:45,349 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:29:45] "OPTIONS /api/emotion-stats HTTP/1.1" 200 -
+2025-11-06 19:29:45,553 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:29:45] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 19:29:45,608 - __main__ - INFO - Generated stats for user 690ca6dc717b4c3d7e33ee87
+2025-11-06 19:29:45,609 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:29:45] "GET /api/emotion-stats HTTP/1.1" 200 -
+2025-11-06 19:29:45,671 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:29:45] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 19:29:45,859 - __main__ - INFO - Generated stats for user 690ca6dc717b4c3d7e33ee87
+2025-11-06 19:29:45,860 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:29:45] "GET /api/emotion-stats HTTP/1.1" 200 -
+2025-11-06 19:29:48,641 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:29:48] "OPTIONS /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:29:48,971 - __main__ - INFO - Analyzing emotion for user: 690ca6dc717b4c3d7e33ee87
+2025-11-06 19:29:50,986 - __main__ - INFO - Emotion detected: neutral (confidence: 0.8354401397705078)
+2025-11-06 19:29:50,990 - __main__ - INFO - Emotion stored for user 690ca6dc717b4c3d7e33ee87: neutral
+2025-11-06 19:29:50,993 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:29:50] "POST /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:29:51,045 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:29:51] "OPTIONS /api/emotion-stats HTTP/1.1" 200 -
+2025-11-06 19:29:51,363 - __main__ - INFO - Generated stats for user 690ca6dc717b4c3d7e33ee87
+2025-11-06 19:29:51,364 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:29:51] "GET /api/emotion-stats HTTP/1.1" 200 -
+2025-11-06 19:30:40,470 - werkzeug - INFO -  * Detected change in 'C:\\Users\\kmani\\Desktop\\Emotion-Based Product Recommender System\\emotion-recommender-app\\backend\\app.py', reloading
+2025-11-06 19:30:41,640 - werkzeug - INFO -  * Restarting with stat
+2025-11-06 19:30:48,470 - __main__ - INFO - Starting Emotion-Based Product Recommender Backend...
+2025-11-06 19:30:48,490 - werkzeug - WARNING -  * Debugger is active!
+2025-11-06 19:30:48,496 - werkzeug - INFO -  * Debugger PIN: 517-185-592
+2025-11-06 19:31:42,188 - __main__ - INFO - Starting Emotion-Based Product Recommender Backend...
+2025-11-06 19:31:42,213 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.125.130.22:5000
+2025-11-06 19:31:42,213 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-06 19:31:42,215 - werkzeug - INFO -  * Restarting with stat
+2025-11-06 19:31:48,732 - __main__ - INFO - Starting Emotion-Based Product Recommender Backend...
+2025-11-06 19:31:48,743 - werkzeug - WARNING -  * Debugger is active!
+2025-11-06 19:31:48,747 - werkzeug - INFO -  * Debugger PIN: 517-185-592
+2025-11-06 19:31:55,910 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:31:55] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 19:31:56,146 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:31:56] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 19:31:58,123 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:31:58] "OPTIONS /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:31:58,451 - __main__ - INFO - Analyzing emotion
+2025-11-06 19:31:59,128 - __main__ - INFO - Emotion detected: happy (confidence: 0.9248095703125)
+2025-11-06 19:31:59,130 - __main__ - INFO - Found 8 products for emotion: happy
+2025-11-06 19:31:59,131 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:31:59] "POST /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:34:24,779 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:34:24] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 19:34:25,025 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:34:25] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 19:34:27,014 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:34:27] "OPTIONS /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:34:27,333 - __main__ - INFO - Analyzing emotion
+2025-11-06 19:34:27,421 - __main__ - INFO - Emotion detected: happy (confidence: 0.9551873016357422)
+2025-11-06 19:34:27,423 - __main__ - INFO - Found 8 products for emotion: happy
+2025-11-06 19:34:27,424 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:34:27] "POST /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:36:17,923 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:36:17] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 19:36:18,185 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:36:18] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 19:36:20,296 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:36:20] "OPTIONS /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:36:20,837 - __main__ - INFO - Analyzing emotion
+2025-11-06 19:36:21,265 - __main__ - INFO - Emotion detected: sad (confidence: 0.9829004669189453)
+2025-11-06 19:36:21,632 - __main__ - INFO - Found 8 products for emotion: sad
+2025-11-06 19:36:22,094 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:36:22] "POST /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:37:45,406 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:37:45] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 19:37:45,671 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:37:45] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 19:38:07,611 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:38:07] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 19:38:07,922 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:38:07] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 19:38:10,530 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:38:10] "OPTIONS /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:38:10,794 - __main__ - INFO - Analyzing emotion
+2025-11-06 19:38:10,882 - __main__ - INFO - Emotion detected: fear (confidence: 0.8672811126708985)
+2025-11-06 19:38:10,883 - __main__ - INFO - Found 8 products for emotion: fear
+2025-11-06 19:38:10,885 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:38:10] "POST /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:38:35,807 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:38:35] "OPTIONS /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:38:36,129 - __main__ - INFO - Analyzing emotion
+2025-11-06 19:38:36,271 - __main__ - INFO - Emotion detected: happy (confidence: 0.28747671127319335)
+2025-11-06 19:38:36,273 - __main__ - INFO - Found 8 products for emotion: happy
+2025-11-06 19:38:36,274 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:38:36] "POST /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:38:51,836 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:38:51] "OPTIONS /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 19:38:52,167 - __main__ - INFO - Analyzing emotion
+2025-11-06 19:38:52,656 - __main__ - INFO - Emotion detected: happy (confidence: 0.9480712127685547)
+2025-11-06 19:38:53,013 - __main__ - INFO - Found 8 products for emotion: happy
+2025-11-06 19:38:53,523 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 19:38:53] "POST /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 20:01:28,897 - __main__ - INFO - Starting Enhanced Emotion-Based Product Recommender...
+2025-11-06 20:01:28,919 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.125.130.22:5000
+2025-11-06 20:01:28,919 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-06 20:01:28,920 - werkzeug - INFO -  * Restarting with stat
+2025-11-06 20:01:33,179 - __main__ - INFO - Starting Enhanced Emotion-Based Product Recommender...
+2025-11-06 20:01:33,187 - werkzeug - WARNING -  * Debugger is active!
+2025-11-06 20:01:33,192 - werkzeug - INFO -  * Debugger PIN: 517-185-592
+2025-11-06 20:01:55,476 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:55] "OPTIONS /api/auth/profile HTTP/1.1" 200 -
+2025-11-06 20:01:55,477 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:55] "OPTIONS /api/orders HTTP/1.1" 200 -
+2025-11-06 20:01:55,478 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:55] "OPTIONS /api/wishlist HTTP/1.1" 200 -
+2025-11-06 20:01:55,479 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:55] "OPTIONS /api/cart HTTP/1.1" 200 -
+2025-11-06 20:01:55,481 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:55] "OPTIONS /api/auth/profile HTTP/1.1" 200 -
+2025-11-06 20:01:55,484 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:55] "OPTIONS /api/cart HTTP/1.1" 200 -
+2025-11-06 20:01:55,790 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:55] "OPTIONS /api/wishlist HTTP/1.1" 200 -
+2025-11-06 20:01:55,790 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:55] "OPTIONS /api/orders HTTP/1.1" 200 -
+2025-11-06 20:01:55,791 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:55] "[31m[1mGET /api/auth/profile HTTP/1.1[0m" 422 -
+2025-11-06 20:01:55,796 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:55] "[31m[1mGET /api/orders HTTP/1.1[0m" 422 -
+2025-11-06 20:01:55,798 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:55] "[31m[1mGET /api/wishlist HTTP/1.1[0m" 422 -
+2025-11-06 20:01:55,808 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:55] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 20:01:56,103 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:56] "[31m[1mGET /api/cart HTTP/1.1[0m" 422 -
+2025-11-06 20:01:56,103 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:56] "[31m[1mGET /api/auth/profile HTTP/1.1[0m" 422 -
+2025-11-06 20:01:56,106 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:56] "[31m[1mGET /api/orders HTTP/1.1[0m" 422 -
+2025-11-06 20:01:56,108 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:56] "[31m[1mGET /api/wishlist HTTP/1.1[0m" 422 -
+2025-11-06 20:01:56,115 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:56] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 20:01:56,411 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:56] "[31m[1mGET /api/cart HTTP/1.1[0m" 422 -
+2025-11-06 20:01:58,505 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:58] "OPTIONS /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 20:01:58,775 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:01:58] "[31m[1mPOST /api/detect-emotion HTTP/1.1[0m" 422 -
+2025-11-06 20:02:02,810 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:02:02] "[31m[1mPOST /api/detect-emotion HTTP/1.1[0m" 422 -
+2025-11-06 20:03:01,891 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:01] "OPTIONS /api/auth/profile HTTP/1.1" 200 -
+2025-11-06 20:03:01,892 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:01] "OPTIONS /api/cart HTTP/1.1" 200 -
+2025-11-06 20:03:01,893 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:01] "OPTIONS /api/wishlist HTTP/1.1" 200 -
+2025-11-06 20:03:01,894 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:01] "OPTIONS /api/orders HTTP/1.1" 200 -
+2025-11-06 20:03:01,896 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:01] "OPTIONS /api/auth/profile HTTP/1.1" 200 -
+2025-11-06 20:03:01,898 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:01] "OPTIONS /api/cart HTTP/1.1" 200 -
+2025-11-06 20:03:02,207 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:02] "OPTIONS /api/wishlist HTTP/1.1" 200 -
+2025-11-06 20:03:02,208 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:02] "OPTIONS /api/orders HTTP/1.1" 200 -
+2025-11-06 20:03:02,211 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:02] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 20:03:02,215 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:02] "[31m[1mGET /api/auth/profile HTTP/1.1[0m" 422 -
+2025-11-06 20:03:02,216 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:02] "[31m[1mGET /api/cart HTTP/1.1[0m" 422 -
+2025-11-06 20:03:02,219 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:02] "[31m[1mGET /api/wishlist HTTP/1.1[0m" 422 -
+2025-11-06 20:03:02,519 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:02] "[31m[1mGET /api/orders HTTP/1.1[0m" 422 -
+2025-11-06 20:03:02,520 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:02] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 20:03:02,524 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:02] "[31m[1mGET /api/auth/profile HTTP/1.1[0m" 422 -
+2025-11-06 20:03:02,528 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:02] "[31m[1mGET /api/cart HTTP/1.1[0m" 422 -
+2025-11-06 20:03:02,530 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:02] "[31m[1mGET /api/wishlist HTTP/1.1[0m" 422 -
+2025-11-06 20:03:02,844 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:02] "[31m[1mGET /api/orders HTTP/1.1[0m" 422 -
+2025-11-06 20:03:04,769 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:04] "OPTIONS /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 20:03:05,033 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:05] "[31m[1mPOST /api/detect-emotion HTTP/1.1[0m" 422 -
+2025-11-06 20:03:10,345 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:10] "OPTIONS /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 20:03:10,665 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:10] "[31m[1mPOST /api/detect-emotion HTTP/1.1[0m" 422 -
+2025-11-06 20:03:11,963 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:03:11] "[31m[1mPOST /api/detect-emotion HTTP/1.1[0m" 422 -
+2025-11-06 20:04:26,344 - werkzeug - INFO -  * Detected change in 'C:\\Users\\kmani\\Desktop\\Emotion-Based Product Recommender System\\emotion-recommender-app\\backend\\app.py', reloading
+2025-11-06 20:04:27,339 - werkzeug - INFO -  * Restarting with stat
+2025-11-06 20:04:32,539 - __main__ - INFO - Starting backend...
+2025-11-06 20:04:32,552 - werkzeug - WARNING -  * Debugger is active!
+2025-11-06 20:04:32,561 - werkzeug - INFO -  * Debugger PIN: 517-185-592
+2025-11-06 20:04:47,497 - __main__ - INFO - Starting backend...
+2025-11-06 20:04:47,514 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.125.130.22:5000
+2025-11-06 20:04:47,515 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-06 20:04:47,517 - werkzeug - INFO -  * Restarting with stat
+2025-11-06 20:04:52,330 - __main__ - INFO - Starting backend...
+2025-11-06 20:04:52,342 - werkzeug - WARNING -  * Debugger is active!
+2025-11-06 20:04:52,345 - werkzeug - INFO -  * Debugger PIN: 517-185-592
+2025-11-06 20:05:02,005 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:02] "OPTIONS /api/auth/profile HTTP/1.1" 200 -
+2025-11-06 20:05:02,007 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:02] "OPTIONS /api/orders HTTP/1.1" 200 -
+2025-11-06 20:05:02,008 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:02] "OPTIONS /api/auth/profile HTTP/1.1" 200 -
+2025-11-06 20:05:02,008 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:02] "OPTIONS /api/cart HTTP/1.1" 200 -
+2025-11-06 20:05:02,009 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:02] "OPTIONS /api/wishlist HTTP/1.1" 200 -
+2025-11-06 20:05:02,046 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:02] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 20:05:02,324 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:02] "OPTIONS /api/cart HTTP/1.1" 200 -
+2025-11-06 20:05:02,326 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:02] "OPTIONS /api/wishlist HTTP/1.1" 200 -
+2025-11-06 20:05:02,327 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:02] "OPTIONS /api/orders HTTP/1.1" 200 -
+2025-11-06 20:05:02,335 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:02] "[31m[1mGET /api/auth/profile HTTP/1.1[0m" 422 -
+2025-11-06 20:05:02,337 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:02] "[31m[1mGET /api/orders HTTP/1.1[0m" 422 -
+2025-11-06 20:05:02,356 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:02] "[31m[1mGET /api/cart HTTP/1.1[0m" 422 -
+2025-11-06 20:05:02,641 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:02] "[31m[1mGET /api/wishlist HTTP/1.1[0m" 422 -
+2025-11-06 20:05:02,644 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:02] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 20:05:02,648 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:02] "[31m[1mGET /api/auth/profile HTTP/1.1[0m" 422 -
+2025-11-06 20:05:02,652 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:02] "[31m[1mGET /api/orders HTTP/1.1[0m" 422 -
+2025-11-06 20:05:02,661 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:02] "[31m[1mGET /api/cart HTTP/1.1[0m" 422 -
+2025-11-06 20:05:02,962 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:02] "[31m[1mGET /api/wishlist HTTP/1.1[0m" 422 -
+2025-11-06 20:05:05,388 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:05] "OPTIONS /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 20:05:05,652 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:05] "[31m[1mPOST /api/detect-emotion HTTP/1.1[0m" 422 -
+2025-11-06 20:05:20,396 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:20] "OPTIONS /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 20:05:20,702 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:05:20] "[31m[1mPOST /api/detect-emotion HTTP/1.1[0m" 422 -
+2025-11-06 20:07:20,071 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:20] "OPTIONS /api/auth/profile HTTP/1.1" 200 -
+2025-11-06 20:07:20,072 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:20] "OPTIONS /api/categories HTTP/1.1" 200 -
+2025-11-06 20:07:20,073 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:20] "OPTIONS /api/auth/profile HTTP/1.1" 200 -
+2025-11-06 20:07:20,073 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:20] "OPTIONS /api/wishlist HTTP/1.1" 200 -
+2025-11-06 20:07:20,074 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:20] "OPTIONS /api/categories HTTP/1.1" 200 -
+2025-11-06 20:07:20,075 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:20] "OPTIONS /api/cart HTTP/1.1" 200 -
+2025-11-06 20:07:20,378 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:20] "OPTIONS /api/cart HTTP/1.1" 200 -
+2025-11-06 20:07:20,379 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:20] "OPTIONS /api/wishlist HTTP/1.1" 200 -
+2025-11-06 20:07:20,383 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:20] "[31m[1mGET /api/auth/profile HTTP/1.1[0m" 422 -
+2025-11-06 20:07:20,389 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:20] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 20:07:20,390 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:20] "[31m[1mGET /api/wishlist HTTP/1.1[0m" 422 -
+2025-11-06 20:07:20,390 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:20] "[31m[1mGET /api/cart HTTP/1.1[0m" 422 -
+2025-11-06 20:07:20,692 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:20] "[31m[1mGET /api/auth/profile HTTP/1.1[0m" 422 -
+2025-11-06 20:07:20,695 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:20] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 20:07:20,696 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:20] "[31m[1mGET /api/wishlist HTTP/1.1[0m" 422 -
+2025-11-06 20:07:20,698 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:20] "[31m[1mGET /api/cart HTTP/1.1[0m" 422 -
+2025-11-06 20:07:22,514 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:22] "OPTIONS /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 20:07:22,784 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:22] "[31m[1mPOST /api/detect-emotion HTTP/1.1[0m" 422 -
+2025-11-06 20:07:36,729 - __main__ - INFO - Starting backend...
+2025-11-06 20:07:36,747 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.125.130.22:5000
+2025-11-06 20:07:36,747 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-06 20:07:36,749 - werkzeug - INFO -  * Restarting with stat
+2025-11-06 20:07:42,575 - __main__ - INFO - Starting backend...
+2025-11-06 20:07:42,587 - werkzeug - WARNING -  * Debugger is active!
+2025-11-06 20:07:42,591 - werkzeug - INFO -  * Debugger PIN: 517-185-592
+2025-11-06 20:07:54,239 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:54] "OPTIONS /api/auth/profile HTTP/1.1" 200 -
+2025-11-06 20:07:54,240 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:54] "OPTIONS /api/wishlist HTTP/1.1" 200 -
+2025-11-06 20:07:54,241 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:54] "OPTIONS /api/categories HTTP/1.1" 200 -
+2025-11-06 20:07:54,242 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:54] "OPTIONS /api/categories HTTP/1.1" 200 -
+2025-11-06 20:07:54,242 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:54] "OPTIONS /api/cart HTTP/1.1" 200 -
+2025-11-06 20:07:54,245 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:54] "OPTIONS /api/auth/profile HTTP/1.1" 200 -
+2025-11-06 20:07:54,568 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:54] "OPTIONS /api/cart HTTP/1.1" 200 -
+2025-11-06 20:07:54,569 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:54] "OPTIONS /api/wishlist HTTP/1.1" 200 -
+2025-11-06 20:07:54,569 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:54] "[31m[1mGET /api/wishlist HTTP/1.1[0m" 422 -
+2025-11-06 20:07:54,571 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:54] "[31m[1mGET /api/auth/profile HTTP/1.1[0m" 422 -
+2025-11-06 20:07:54,575 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:54] "[31m[1mGET /api/cart HTTP/1.1[0m" 422 -
+2025-11-06 20:07:54,591 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:54] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 20:07:54,880 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:54] "[31m[1mGET /api/wishlist HTTP/1.1[0m" 422 -
+2025-11-06 20:07:54,884 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:54] "[31m[1mGET /api/auth/profile HTTP/1.1[0m" 422 -
+2025-11-06 20:07:54,885 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:54] "[31m[1mGET /api/cart HTTP/1.1[0m" 422 -
+2025-11-06 20:07:54,911 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:07:54] "GET /api/categories HTTP/1.1" 200 -
+2025-11-06 20:08:16,027 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:08:16] "OPTIONS /api/detect-emotion HTTP/1.1" 200 -
+2025-11-06 20:08:16,568 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2025 20:08:16] "[31m[1mPOST /api/detect-emotion HTTP/1.1[0m" 422 -
+2025-11-06 20:10:12,674 - werkzeug - INFO -  * Detected change in 'C:\\Users\\kmani\\Desktop\\Emotion-Based Product Recommender System\\emotion-recommender-app\\backend\\app.py', reloading
+2025-11-06 20:10:13,308 - werkzeug - INFO -  * Restarting with stat
